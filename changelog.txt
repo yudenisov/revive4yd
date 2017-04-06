@@ -1,0 +1,14 @@
+ChangeLog
+=========
+
+
+Version 0.9*
+
+	i) Initial Release.
+	
+Version 0.91
+
+	i) Minor Bug Fixes
+	ii) Fixed Font Issues
+	iii) Fixed Screenshot Issues.
+	

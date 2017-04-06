@@ -1,0 +1,59 @@
+body {
+	.fw-row {
+		margin-bottom: 20px;
+	}
+	.fw-btn {
+		background: @accent;
+		border: solid 1px @accent;
+		&:hover {
+			background: white;
+			color: @accent;
+			border: solid 1px @accent;
+		}
+	}
+	
+	//Accordian
+	.fw-accordion .fw-accordion-title {
+		background: fade(@accent,80%);
+		color: white;
+	}
+	.fw-accordion {
+		border-color: @accent;
+	}
+	.fw-accordion .fw-accordion-title {
+		border-top-color: @accent;
+	}
+	.fw-accordion .fw-accordion-title.ui-state-active {
+		color: @accent;
+	}
+	.fw-accordion .fw-accordion-title .ui-icon {
+		background: none;
+		top: 15px;
+		left: 16px;
+		&:before {
+			content: "\f0fe";
+			font-family: "FontAwesome";
+			position: absolute;
+			font-size: 16px;
+			color: white;
+			
+		}
+	}
+	.fw-accordion .fw-accordion-title.ui-state-active .ui-icon {
+		background: none;
+		top: 15px;
+		left: 16px;
+		&:before {
+			content: "\f056";
+			font-family: "FontAwesome";
+			position: absolute;
+			font-size: 16px;
+			color: @accent;
+			
+		}
+	}
+	
+	
+	
+	
+}
