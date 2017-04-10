@@ -1255,7 +1255,7 @@ function revive_customize_register( $wp_customize ) {
 	     */
 	    public function get_fonts( $amount = 'all' )
 	    {
-	        $fontFile = get_template_directory().'/inc/cache/google-web-fonts.txt';
+	        $fontFile = get_template_directory().'/inc/cache/my-web-fonts.txt';
 	
 	        //Total time the file will be cached in seconds, set to a week
 	        $cachetime = 86400 * 30;

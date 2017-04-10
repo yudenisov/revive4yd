@@ -792,6 +792,8 @@ object {
 /**
  * 13.0 - Re-Definition Styles
  */
+body {
+}
 menu, dir {
     display: block;
     list-style-type: disc;
@@ -813,17 +815,13 @@ hr {
 div.launch > ul {
 	margin: 0 0 0 6pt;
 	padding: 0pt 0pt 0pt 3pt;
-	list-style-image: url(img/launchbull_brown.png);
 }
 
 div.launch > ul > ul {
 	margin: 0 0 0 6pt;
-	list-style-image: url(img/launchbull_brown.png);
-}
 
-div.launch > ul > ul > a:visited {
-	color: #ff3f3f;
 } 
+
  
 /**
  * 14.0 - User's Defined Styles
@@ -855,26 +853,99 @@ ul.list-headmenu{
 ul.list-footermenu{
   text-align: center;
 }
-.secthead {
-    background: #d2691e; /* ‘он */
-    min-height: 45px; /* ћинимальна€ высота */
-    color: yellow; /* ÷вет текста */
-    padding-left: 20px; /* ќтступ слева */
-    padding-top: 10px;
-    position: relative; /* ќтносительное позиционирование */
-    font-size: 16pt;
-   }
 p.stop-age {
 	color : #ff3f3f;
 	font-size : 18pt;
 	text-align : right;
 	font-weight : bold;
 }
-a:link {
-	color: #7c4114;
-}
 
+/**
+ * 15.0 - User's Defined Color Scheme Old
+
+/*
+div.launch > ul > ul > a:visited {
+	color: #ff3f3f; // ÷вет посещЄнной ссылки * Old Style
+} 
+.secthead {
+    min-height: 45px; 
+    padding-left: 20px;
+    padding-top: 10px;
+    position: relative;
+    font-size: 16pt;
+    background: #d2691e; // ‘он Style Old
+    color: yellow; // ÷вет текста * Style Old 
+}
 a:active, a:visited {
-	color: #ff3f3f;
+	color: #ff3f3f; // ÷вет посещЄнной ссылки * Old Style 
 }
 
+h4.h4highlite {
+	color: #336CAC; // ÷вет выделенного заголовка * Style 2
+}
+div.launch > ul {
+	list-style-image: url(img/launchbull_brown.png);
+}
+
+div.launch > ul > ul {
+	list-style-image: url(img/launchbull_brown.png);
+}
+
+*/
+
+/**
+ * 16.0 - User's Defined Color Scheme 1
+ 
+
+div.launch > ul > ul > a:visited {
+	color: #949EA6; // ÷вет посещЄнной ссылки * Style 1 
+} 
+.secthead {
+.secthead {
+    min-height: 45px; 
+    padding-left: 20px;
+    padding-top: 10px;
+    position: relative;
+    font-size: 16pt;
+   }
+	color: #C6DEDA; // ÷вет текста * Style 1 
+}
+a:active, a:visited {
+	color: #949EA6; // ÷вет посещЄнной ссылки * Style 1
+}
+h4.h4highlite {
+	color: #949EA6; // ÷вет выделенного заголовка * Style 1 
+}
+*/
+/**
+ * 17.0 - User's Defined Color Scheme 2
+ */
+
+div.launch > ul > ul > a:visited {
+	color: #925939; 
+} 
+.secthead {
+    min-height: 45px; 
+    padding-left: 20px;
+    padding-top: 10px;
+    position: relative;
+    font-size: 16pt;
+    background: #ED5600;
+    color: #FACD77;
+}
+a:active, a:visited {
+	color: #925939;
+}
+*/
+h4.h4highlite {
+	color: #336CAC;
+}
+div.launch > ul {
+	list-style-image: url(img/launchbull_brown.png);
+}
+
+div.launch > ul > ul {
+	list-style-image: url(img/launchbull_brown.png);
+}
+
+ 
