@@ -14,7 +14,17 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php //revive_post_nav(); ?>
+            <!-- Insert Additional contact field -->
+            <?php
+            $root = $_SERVER['DOCUMENT_ROOT'];
+            $contact_field = $root."/contact_field.inc";
+            if (file_exists($contact_field))
+                include_once($contact_field);
+
+            ?>
+            <!-- /Insert Additional contact field -->
+
+            <?php //revive_post_nav(); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template

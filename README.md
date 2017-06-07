@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-# revive4yd
->>>>>>> origin/master
 Revive4yd WordPress Theme
 =========
 GNU GPL v3
@@ -14,16 +10,17 @@ Revive4yd
 
 Revive4yd is a Multi-Purpose Theme with a Magazine Layout which can be easily optimized for other purposes too. This theme comes integrated with Font Awesome Icons, Multiple Blog Layouts, Sidebar Customizations and much more. Built on the Bootstrap 3.0 Framework, Revive4yd has brilliant Responsive performance on Mobile and Tablet Devices as well. 
 
-This theme based from InkHive Revive Theme. The list of changings is following:
+This theme based from InkHive Revive Theme. The list of  is following:
 
-<<<<<<< HEAD
+Commit 2017-06-07
+- add woocommerce plugin support;
+- add  contacts field panel on page, single and woocommerce templates;
+
 Commit 2017-06-02
 - replace include files for banner & tisers into root directory of the site;
 - add fonts KarinaC, Korrina, Peterburg;
-- add price highlite style;
+- add price  style;
 
-=======
->>>>>>> origin/master
 Commit 2017-04-09:
 - remove all non-Cyrillic fonts;
 - add fonts Calibri, Calibri Light and Times New Roman;
