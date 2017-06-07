@@ -22,7 +22,12 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 <!-- Added -->
-<?php include_once("bottom_analytics.php"); ?>
+<?php
+$root = $_SERVER['DOCUMENT_ROOT'];
+$bottom_analytics = $root."/bottom_analytics.inc";
+if (file_exists($bottom_analytics))
+        include_once($bottom_analytics);
+?>
 <!-- /Added -->
 		<div class="site-info container">
 			<?php if ( !get_theme_mod('revive_link_remove') ) : ?>

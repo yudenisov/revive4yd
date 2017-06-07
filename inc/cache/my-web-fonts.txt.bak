@@ -25,7 +25,7 @@
    "lastModified": "2016-04-04",
    "files": {
     "regular": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Serif/SIMES.TTF",
-    "italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Serif/SIMESI.TTF",
+    "italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Serif/SIMESI.TTF'",
     "700": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Serif/SIMESBD.TTF",
     "700italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Serif/SIMESBI.TTF"
    }
@@ -82,79 +82,6 @@
    "files": {
     "regular": "http://wpad.yudenisov.ru/fonts/ttf/Typo/SansSerif/Calibri-Light.ttf",
     "italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/SansSerif/Calibri-LightItalic.ttf"
-   }
-  },
-    {
-   "kind": "webfonts#webfont",
-   "family": "Peterburg",
-   "category": "serif",
-   "variants": [
-    "regular",
-    "italic",
-    "700",
-    "700italic"
-   ],
-   "subsets": [
-    "latin-ext",
-    "cyrillic",
-    "cyrillic-ext",
-    "latin"
-   ],
-   "version": "v1",
-   "lastModified": "2016-04-04",
-   "files": {
-    "regular": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/Peterburg.ttf",
-    "italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/Peterburg-Italic.ttf",
-    "700": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/Peterburg-Bold.ttf",
-    "700italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/Peterburg-BoldItalic.ttf"
-   }
-  },
-  {
-   "kind": "webfonts#webfont",
-   "family": "KorinnaC",
-   "category": "serif",
-   "variants": [
-    "regular",
-    "italic",
-    "700",
-    "700italic"
-   ],
-   "subsets": [
-    "latin-ext",
-    "cyrillic",
-    "cyrillic-ext",
-    "latin"
-   ],
-   "version": "v1",
-   "lastModified": "2016-04-04",
-   "files": {
-    "regular": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/KorinnaC.ttf",
-    "italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/KorinnaC-Italic.ttf",
-    "700": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/KorinnaC-Bold.ttf",
-    "700italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/KorinnaC-BoldItalic.ttf"
-   }
-  },
-  {
-   "kind": "webfonts#webfont",
-   "family": "KarinaC",
-   "category": "serif",
-   "variants": [
-    "regular",
-    "italic",
-    "700",
-    "700italic"
-   ],
-   "subsets": [
-    "cyrillic",
-    "latin"
-   ],
-   "version": "v1",
-   "lastModified": "2016-04-04",
-   "files": {
-    "regular": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/KarinaC.ttf",
-    "italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/KarinaC-Italic.ttf",
-    "700": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/KarinaCBold.ttf",
-    "700italic": "http://wpad.yudenisov.ru/fonts/ttf/Typo/Special/KarinaC-BoldItalic.ttf"
    }
   },
   {

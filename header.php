@@ -19,7 +19,11 @@
 
 <body <?php body_class(); ?>>
 <!-- Added -->
-<?php include_once("header_analytics.php"); ?>
+<?php
+$root = $_SERVER['DOCUMENT_ROOT'];
+$top_analytics = $root."/header_analytics.inc";
+if (file_exists($top_analytics))
+    include_once($top_analytics); ?>
 <!-- /Added -->
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'revive' ); ?></a>
