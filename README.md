@@ -12,6 +12,9 @@ Revive4yd is a Multi-Purpose Theme with a Magazine Layout which can be easily op
 
 This theme based from InkHive Revive Theme. The list of  is following:
 
+Commit 2017-07-11
+- add fonts Lato (cyrillic)
+
 Commit 2017-06-07
 - add woocommerce plugin support;
 - add  contacts field panel on page, single and woocommerce templates;

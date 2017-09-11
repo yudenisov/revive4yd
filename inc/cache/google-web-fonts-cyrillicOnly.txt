@@ -111,6 +111,31 @@
   },
   {
    "kind": "webfonts#webfont",
+   "family": "Lato",
+   "category": "sans-serif",
+   "variants": [
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+   ],
+   "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "latin"
+   ],
+   "version": "v1",
+   "lastModified": "2017-07-11",
+   "files": {
+    "regular": "http://wpad.yudenisov.ru/fonts/ttf/Header/SansSerif/Lato-Regular.ttf",
+    "italic": "http://wpad.yudenisov.ru/fonts/ttf/Header/SansSerif/Lato-Italic.ttf",
+    "700": "http://wpad.yudenisov.ru/fonts/ttf/Header/SansSerif/Lato-Bold.ttf",
+    "700italic": "http://wpad.yudenisov.ru/fonts/ttf/Header/SansSerif/Lato-BoldItalic.ttf"
+   }
+  },
+  {
+   "kind": "webfonts#webfont",
    "family": "KorinnaC",
    "category": "serif",
    "variants": [
