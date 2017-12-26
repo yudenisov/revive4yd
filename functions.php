@@ -144,9 +144,9 @@ add_action( 'widgets_init', 'revive_widgets_init' );
 function revive_scripts() {
 	wp_enqueue_style( 'revive-style', get_stylesheet_uri() );
 	
-	wp_enqueue_style('revive-title-font', '//fonts.googleapis.com/css?family='.str_replace(" ", "+", get_theme_mod('revive_title_font', 'Lato') ).':100,300,400,700' );
+	wp_enqueue_style('revive-title-font', '//fonts.googleapis.com/css?family='.str_replace(" ", "+", get_theme_mod('revive_title_font', 'Roboto') ).':100,300,400,700' );
 	
-	wp_enqueue_style('revive-body-font', '//fonts.googleapis.com/css?family='.str_replace(" ", "+", get_theme_mod('revive_body_font', 'Lato') ).':100,300,400,700' );
+	wp_enqueue_style('revive-body-font', '//fonts.googleapis.com/css?family='.str_replace(" ", "+", get_theme_mod('revive_body_font', 'Roboto') ).':100,300,400,700' );
 	
 	wp_enqueue_style( 'revive-fontawesome-style', get_template_directory_uri() . '/assets/font-awesome/css/font-awesome.min.css' );
 	
@@ -163,6 +163,8 @@ function revive_scripts() {
 	wp_enqueue_style( 'revive-main-theme-style', get_template_directory_uri() . '/assets/css/main.css' );
 
 	wp_enqueue_style( 'revive-forPrice-theme-style', get_template_directory_uri() . '/assets/css/forPrice.css' );
+
+	wp_enqueue_style( 'revive-Lato-font', get_template_directory_uri() . '/assets/fonts/fontLato.css' );
 
 	wp_enqueue_script( 'revive-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 	
