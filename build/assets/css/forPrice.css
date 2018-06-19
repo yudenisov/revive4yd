@@ -1,0 +1,32 @@
+h3.sayprice {
+  font-size: large;
+}
+
+h3.sayprice > span.oldprice {
+  font-family: KarinaC;
+  font-style: normal;
+  text-decoration: line-through;
+}
+
+h3.sayprice > span.oldcurrency {
+  font-family: KarinaC;
+  font-style: normal;
+  text-decoration: none;
+}
+
+h3.sayprice > span.price {
+  font-family: KarinaC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: xx-large;
+  color: red;
+}
+
+h3.sayprice > span.currency {
+  font-family: KarinaC;
+  font-style: normal;
+  text-decoration: none;
+  font-size: x-large;
+  color: red;
+}
+/*# sourceMappingURL=forPrice.css.map */

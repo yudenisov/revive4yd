@@ -865,7 +865,7 @@ p.stop-age {
 
 /*
 div.launch > ul > ul > a:visited {
-	color: #ff3f3f; // Öâåò ïîñåù¸ííîé ññûëêè * Old Style
+	color: #ff3f3f; // Ð¦Ð²ÐµÑ‚ Ð¿Ð¾ÑÐµÑ‰Ñ‘Ð½Ð½Ð¾Ð¹ ÑÑÑ‹Ð»ÐºÐ¸ * Old Style
 } 
 .secthead {
     min-height: 45px; 
@@ -873,15 +873,15 @@ div.launch > ul > ul > a:visited {
     padding-top: 10px;
     position: relative;
     font-size: 16pt;
-    background: #d2691e; // Ôîí Style Old
-    color: yellow; // Öâåò òåêñòà * Style Old 
+    background: #d2691e; // Ð¤Ð¾Ð½ Style Old
+    color: yellow; // Ð¦Ð²ÐµÑ‚ Ñ‚ÐµÐºÑÑ‚Ð° * Style Old 
 }
 a:active, a:visited {
-	color: #ff3f3f; // Öâåò ïîñåù¸ííîé ññûëêè * Old Style 
+	color: #ff3f3f; // Ð¦Ð²ÐµÑ‚ Ð¿Ð¾ÑÐµÑ‰Ñ‘Ð½Ð½Ð¾Ð¹ ÑÑÑ‹Ð»ÐºÐ¸ * Old Style 
 }
 
 h4.h4highlite {
-	color: #336CAC; // Öâåò âûäåëåííîãî çàãîëîâêà * Style 2
+	color: #336CAC; // Ð¦Ð²ÐµÑ‚ Ð²Ñ‹Ð´ÐµÐ»ÐµÐ½Ð½Ð¾Ð³Ð¾ Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²ÐºÐ° * Style 2
 }
 div.launch > ul {
 	list-style-image: url(img/launchbull_brown.png);
@@ -898,7 +898,7 @@ div.launch > ul > ul {
  
 
 div.launch > ul > ul > a:visited {
-	color: #949EA6; // Öâåò ïîñåù¸ííîé ññûëêè * Style 1 
+	color: #949EA6; // Ð¦Ð²ÐµÑ‚ Ð¿Ð¾ÑÐµÑ‰Ñ‘Ð½Ð½Ð¾Ð¹ ÑÑÑ‹Ð»ÐºÐ¸ * Style 1 
 } 
 .secthead {
 .secthead {
@@ -908,13 +908,13 @@ div.launch > ul > ul > a:visited {
     position: relative;
     font-size: 16pt;
    }
-	color: #C6DEDA; // Öâåò òåêñòà * Style 1 
+	color: #C6DEDA; // Ð¦Ð²ÐµÑ‚ Ñ‚ÐµÐºÑÑ‚Ð° * Style 1 
 }
 a:active, a:visited {
-	color: #949EA6; // Öâåò ïîñåù¸ííîé ññûëêè * Style 1
+	color: #949EA6; // Ð¦Ð²ÐµÑ‚ Ð¿Ð¾ÑÐµÑ‰Ñ‘Ð½Ð½Ð¾Ð¹ ÑÑÑ‹Ð»ÐºÐ¸ * Style 1
 }
 h4.h4highlite {
-	color: #949EA6; // Öâåò âûäåëåííîãî çàãîëîâêà * Style 1 
+	color: #949EA6; // Ð¦Ð²ÐµÑ‚ Ð²Ñ‹Ð´ÐµÐ»ÐµÐ½Ð½Ð¾Ð³Ð¾ Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²ÐºÐ° * Style 1 
 }
 */
 /**
@@ -936,7 +936,7 @@ div.launch > ul > ul > a:visited {
 a:active, a:visited {
 	color: #925939;
 }
-*/
+
 h4.h4highlite {
 	color: #336CAC;
 }
